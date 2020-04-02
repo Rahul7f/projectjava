@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:background="@drawable/back" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mycard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="125dp"
+        app:cardCornerRadius="65dp"
+        android:layout_marginBottom="-70dp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/example"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="104dp"
+                android:background="@drawable/coustombtn"
+                android:text="Example"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/interview_question"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/basicjava" />
+
+            <Button
+                android:id="@+id/basicjava"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="61dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="26dp"
+                android:background="@drawable/coustombtn"
+                android:text="Basic Java"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+
+                app:layout_constraintBottom_toTopOf="@+id/example"
+                app:layout_constraintEnd_toStartOf="@+id/advancejava"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/interview_question"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginBottom="104dp"
+                android:background="@drawable/coustombtn"
+                android:text="Interview Question"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/example"
+                app:layout_constraintTop_toBottomOf="@+id/advancejava" />
+
+            <Button
+                android:id="@+id/advancejava"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="61dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginBottom="26dp"
+                android:background="@drawable/coustombtn"
+                android:text="Advance Java"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toTopOf="@+id/interview_question"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/basicjava"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
