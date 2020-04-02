@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">JAVA Tutorial</string>
+
+    <string-array name="Basic_java">
+        <item>Introduction</item>
+        <item>Feature</item>
+        <item>First Program</item>
+        <item>pros and cons</item>
+        <item>history</item>
+        <item>first program</item>
+        <item>variable</item>
+        <item>data type</item>
+        <item>variable scope</item>
+        <item>operator</item>
+        <item>if statement</item>
+        <item>switch statement</item>
+    </string-array>
+
+
 </resources>
