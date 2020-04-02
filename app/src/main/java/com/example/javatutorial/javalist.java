@@ -18,8 +18,6 @@ public class javalist extends AppCompatActivity {
 
         String name = getIntent().getStringExtra("tt");
         getSupportActionBar().setTitle(name);
-
-
-        
+        //ok
     }
 }
