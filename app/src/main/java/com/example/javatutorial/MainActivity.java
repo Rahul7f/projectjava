@@ -22,9 +22,11 @@ public class MainActivity extends AppCompatActivity {
         bjava.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),javalist.class);
                 String name = "basic java";
+                int id = v.getId();
+                Intent intent = new Intent(getApplicationContext(),javalist.class);
                 intent.putExtra("tt",name);
+                intent.putExtra("btnid",id);
                 startActivity(intent);
 
 
@@ -35,6 +37,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                String name = "Advance java";
+                int id = v.getId();
+                Intent intent = new Intent(getApplicationContext(),javalist.class);
+                intent.putExtra("tt",name);
+                intent.putExtra("btnid",id);
+                startActivity(intent);
+
             }
         });
 
@@ -42,12 +51,26 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                String name = "Example";
+                int id = v.getId();
+                Intent intent = new Intent(getApplicationContext(),javalist.class);
+                intent.putExtra("tt",name);
+                intent.putExtra("btnid",id);
+                startActivity(intent);
+
             }
         });
 
         iq.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                String name = "Interview Question";
+                int id = v.getId();
+                Intent intent = new Intent(getApplicationContext(),javalist.class);
+                intent.putExtra("tt",name);
+                intent.putExtra("btnid",id);
+                startActivity(intent);
 
             }
         });

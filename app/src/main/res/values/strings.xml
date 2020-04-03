@@ -2,18 +2,60 @@
     <string name="app_name">JAVA Tutorial</string>
 
     <string-array name="Basic_java">
-        <item>Introduction</item>
-        <item>Feature</item>
+        <item>What is java</item>
+        <item>History of java</item>
+        <item>Feature of java</item>
         <item>First Program</item>
-        <item>pros and cons</item>
-        <item>history</item>
-        <item>first program</item>
-        <item>variable</item>
-        <item>data type</item>
-        <item>variable scope</item>
+        <item>JDK,JRE,JVM</item>
+        <item>Variable</item>
+        <item>datatype</item>
         <item>operator</item>
-        <item>if statement</item>
-        <item>switch statement</item>
+        <item>keyword</item>
+        <item>Java if else</item>
+        <item>Java switch</item>
+        <item>Java for Loop</item>
+        <item>Java While Loop</item>
+        <item>Java Break</item>
+        <item>Java Continue</item>
+        <item>Array</item>
+        <item>Multidimentional Array </item>
+
+    </string-array>
+
+    <string-array name="Advance_java">
+        <item>class and object</item>
+        <item>method</item>
+        <item>constructor</item>
+        <item>Acess Modefires</item>
+        <item>this Keyword</item>
+        <item>Recursion</item>
+        <item>Inheritance</item>
+        <item>method overriding</item>
+        <item>super Keyword</item>
+        <item>Abstract class and method</item>
+        <item>Interface</item>
+        <item>Polymorphism</item>
+        <item>Encapsulation</item>
+    </string-array>
+
+    <string-array name="Example">
+        <item>Java Program to Print an Integer</item>
+        <item>Java Program to Add Two Integers</item>
+        <item>Java Program to Multiply two Floating Point Numbers</item>
+        <item>Java Program to Swap Two Numbers</item>
+        <item>Java Program to Check Whether a Number is Even or Odd</item>
+        <item>Java Program to Check Leap Year</item>
+    </string-array>
+
+    <string-array name="Interview_Question">
+        <item>What is Java?</item>
+        <item>What are the differences between C++ and Java?</item>
+        <item>List the features of Java Programming language.</item>
+        <item>What do you understand by Java virtual machine?</item>
+        <item>What is the difference between JDK, JRE, and JVM?</item>
+        <item>How many types of memory areas are allocated by JVM?</item>
+
+
     </string-array>
 
 
